@@ -2,3 +2,12 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --main-header-color: #DB00FF;
+  --section-header-text-color: #000028;
+  --text-color: #F1B2CE;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --border-color: #FF0070;
+}

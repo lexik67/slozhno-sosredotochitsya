@@ -4,9 +4,32 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme_dark) {
+    --accent-color: #FF0070;
+    --bg-color: #000028;
+    --main-header-color: #DB00FF;
+    --section-header-text-color: #000028;
+    --text-color: #F1B2CE;
+    --header-bg-image: url(../images/cover-image-dark.png);
+    --border-color: #FF0070;
+  }
+}
+
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --main-header-color: #DB00FF;
+  --section-header-text-color: #000028;
+  --text-color: #F1B2CE;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --border-color: #FF0070;
+}
+
+.page.theme_dark .article__header.title-decor {
+  --section-header-text-color: #000028;
+}
+
+.page.theme_dark  .header-sub-header__text.title-decor {
+  --section-header-text-color: #000028;
 }
