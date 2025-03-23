@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-block-end: 20px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  height: calc(100dvh - 20px);
+}
+
+@media (width >= 768px) {
+
+}
+
+@media (width >= 1024px) {
+  .footer {
+    height: calc(100dvh - 40px);
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+  }
+}
