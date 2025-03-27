@@ -12,6 +12,10 @@
   background-attachment: fixed;
 }
 
+.heading.title-decor {
+  color: var(--heading-text-color-with-bg);
+}
+
 /* декоративные углы для блоков */
 
 /* псевдоэлемент правый верхний угол */
