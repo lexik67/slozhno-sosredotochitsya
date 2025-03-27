@@ -13,6 +13,15 @@
     --text-color: #353430;
     --header-bg-image: url(../images/cover-image-light.png);
     --border-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
+  }
+
+  .header__decoration-rec {
+    display: none;
+  }
+
+  .header__theme-menu-button {
+    color: var(--text-color);
   }
 }
 
@@ -24,12 +33,17 @@
   --text-color: #353430;
   --header-bg-image: url(../images/cover-image-light.png);
   --border-color: #353430;
+  --hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light .header__theme-menu-button {
   color: var(--text-color);
 }
 
-.page.theme_light .header__decoration-rec {
+.page.theme_light  .header__decoration-rec {
   display: none;
+}
+
+.page.theme_dark .article__link:focus-visible {
+  outline: 1px solid #353430;
 }
